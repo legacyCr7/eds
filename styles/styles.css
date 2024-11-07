@@ -251,7 +251,55 @@ main > .section:first-of-type {
 /* section metadata */
 main .section.light,
 main .section.highlight {
-  background-color: var(--light-color);
+  background-color: yellow;
   margin: 0;
   padding: 40px 0;
+}
+
+
+.igniting-container,
+.industry-container,
+.curated-container,
+.enroll-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 45%;
+  left: 180px;
+  top: 110px;
+}
+
+.igniting-container,
+.industry-container,
+.curated-container,
+.enroll-container p {
+  margin: 0;
+}
+
+.igniting-wrapper, .industry-wrapper{
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.industry-wrapper p{
+  color:#0092DA;
+}
+
+.curated-wrapper p{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  padding-top: 5px;
+}
+
+.enroll-wrapper p a{
+  background: #0092da !important;
+  padding: 10px 20px 10px 20px !important;
+  font-size: 19px !important;
+  color: #fff !important;
+  text-transform: capitalize !important;
+  font-weight: 700 !important;
+  border-radius: 0 !important;
 }
