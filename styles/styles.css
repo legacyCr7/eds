@@ -228,9 +228,6 @@ main img {
 }
 
 /* sections */
-main > .section {
-  margin: 40px 0;
-}
 
 main > .section > div {
   max-width: 1200px;
@@ -303,3 +300,37 @@ main .section.highlight {
   font-weight: 700 !important;
   border-radius: 0 !important;
 }
+
+
+/* blue container */
+
+.section.blue-container-container{
+  background-color: #007bff;
+  padding: 20px;
+}
+
+.blue-container-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blue-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.blue-container div {
+  text-align: center;
+  color: white;
+}
+
+.blue-container p {
+  margin: 0;
+}
+
+.blue-container p {
+  font-size: 32px;
+  font-weight: bold;
+}
+
