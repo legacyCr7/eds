@@ -13,7 +13,7 @@ async function setupCarouselButtons() {
 }
   
 async function carousel() {
-    await setupCarouselButtons();
+    await setupCarouselButtons(); 
     document.querySelector('.left').onclick = () => moveSlide(-1);
     document.querySelector('.right').onclick = () => moveSlide(1);
 
