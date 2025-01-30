@@ -228,9 +228,6 @@ main img {
 }
 
 /* sections */
-main > .section {
-  margin: 40px 0;
-}
 
 main > .section > div {
   max-width: 1200px;
@@ -238,9 +235,6 @@ main > .section > div {
   padding: 0 24px;
 }
 
-main > .section:first-of-type {
-  margin-top: 0;
-}
 
 @media (width >= 900px) {
   main > .section > div {
@@ -302,4 +296,54 @@ main .section.highlight {
   text-transform: capitalize !important;
   font-weight: 700 !important;
   border-radius: 0 !important;
+}
+
+
+/* blue container */
+
+.section.blue-container-container{
+  background-color: #007bff;
+  padding: 20px;
+}
+
+.blue-container-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blue-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.blue-container div {
+  text-align: center;
+  color: white;
+}
+
+.blue-container p {
+  margin: 0;
+}
+
+.blue-container p { 
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.account-heading .default-content-wrapper p{
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #EBD3F7;
+  padding: 25px;
+}
+
+.account-heading .default-content-wrapper {
+  padding: 0px !important;
+  max-width: 1360px !important;
+}
+
+.account-heading{
+  margin: 0px !important;
 }
