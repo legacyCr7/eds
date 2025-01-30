@@ -262,7 +262,7 @@ header nav .nav-tools {
 }
 
 
-header .section.nav-tools .default-content-wrapper ul li a {
+header .section.nav-tools .default-content-wrapper ul li:first-child {
   background-color: #008CFF;
   color: white;
   padding: 10px 20px;
